@@ -1,7 +1,6 @@
 $(document).ready(function () {
   $(".dropdownButton").click(function () {
     //Elimina la clase on de todos los botones
-    $(".dropdownButton").removeClass("on");
 
     //Plegamos todo el contenido que esta abierto
     $(".dropdownContent").slideUp("fast");
@@ -14,5 +13,6 @@ $(document).ready(function () {
       //Abre el slide
       $(this).next().slideDown("down");
     }
+    //
   });
 });

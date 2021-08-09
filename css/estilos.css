@@ -304,6 +304,10 @@ textarea[type="text"] {
   .dropdownContent ul li {
     padding: 5px 0;
   }
-
-  /*Menu Desplegable*/
+}
+/*Menu Desplegable*/
+@media (min-width: 600px) {
+  nav {
+    display: flex !important;
+  }
 }
